@@ -55,8 +55,8 @@ jobs:
               --max-time 30 "${site_url}${path}" --output "$output"
           done
           grep --quiet "Atelier MAONI" /tmp/atelier-maoni-
-          test "$(grep --count 'data-image-index=' /tmp/atelier-maoni-ka-work-)" -eq 33
-          test "$(grep --count 'data-image-index=' /tmp/atelier-maoni-en-work-)" -eq 33
+          test "$(grep --only-matching 'data-image-index=' /tmp/atelier-maoni-ka-work- | wc --lines)" -eq 33
+          test "$(grep --only-matching 'data-image-index=' /tmp/atelier-maoni-en-work- | wc --lines)" -eq 33
           grep --quiet 'https://maps.app.goo.gl/drJ2gnc8GKpYNQ599' /tmp/atelier-maoni-ka-contact-
           grep --quiet 'https://maps.app.goo.gl/drJ2gnc8GKpYNQ599' /tmp/atelier-maoni-en-contact-
           grep --quiet 'https://ateliermaoni.github.io/ka/' /tmp/atelier-maoni-sitemap.xml
