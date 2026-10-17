@@ -28,7 +28,7 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir _site
-          cp index.html robots.txt sitemap.xml .nojekyll _site/
+          cp index.html robots.txt sitemap.xml google93bce739218ee220.html .nojekyll _site/
           cp -R assets en ka _site/
 
       - name: Configure GitHub Pages
@@ -49,7 +49,7 @@ jobs:
         run: |
           site_url="${{ steps.deployment.outputs.page_url }}"
           site_url="${site_url%/}/"
-          for path in "" ka/ en/ ka/work/ en/work/ ka/contact/ en/contact/ sitemap.xml robots.txt assets/images/silver-04-1345.webp; do
+          for path in "" ka/ en/ ka/work/ en/work/ ka/contact/ en/contact/ sitemap.xml robots.txt google93bce739218ee220.html assets/images/silver-04-1345.webp; do
             output="/tmp/atelier-maoni-${path//\//-}"
             curl --fail --location --retry 12 --retry-delay 10 --retry-all-errors \
               --max-time 30 "${site_url}${path}" --output "$output"
@@ -64,6 +64,7 @@ jobs:
           grep --quiet 'https://maps.app.goo.gl/drJ2gnc8GKpYNQ599' /tmp/atelier-maoni-en-contact-
           grep --quiet 'https://ateliermaoni.github.io/ka/' /tmp/atelier-maoni-sitemap.xml
           grep --quiet 'Sitemap: https://ateliermaoni.github.io/sitemap.xml' /tmp/atelier-maoni-robots.txt
+          echo 'f75bfad8bea98f275ebba808ab0111984bbe0500f3c2fbeef8e88fa3716cc0e9  /tmp/atelier-maoni-google93bce739218ee220.html' | sha256sum --check --status
 
       - name: Mark verified deployment
         run: |
