@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ateliermaoni.github.io/ka/</loc></url>
-  <url><loc>https://ateliermaoni.github.io/ka/work/</loc></url>
-  <url><loc>https://ateliermaoni.github.io/ka/contact/</loc></url>
-  <url><loc>https://ateliermaoni.github.io/en/</loc></url>
-  <url><loc>https://ateliermaoni.github.io/en/work/</loc></url>
-  <url><loc>https://ateliermaoni.github.io/en/contact/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ateliermaoni.github.io/ka/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ateliermaoni.github.io/ka/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ateliermaoni.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ateliermaoni.github.io/ka/"/>
+  </url>
+  <url>
+    <loc>https://ateliermaoni.github.io/ka/work/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ateliermaoni.github.io/ka/work/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ateliermaoni.github.io/en/work/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ateliermaoni.github.io/ka/work/"/>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/silver-04-1345.webp</image:loc><image:title>ვერცხლისფერი ბზინვარება</image:title><image:caption>ღია ფერის მომდგარი კაბის წინა ხედი ვერცხლისფერი დეკორით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/silver-05-1333.webp</image:loc><image:title>ვერცხლისფერი ბზინვარება</image:title><image:caption>ვერცხლისფერი დეკორით გაფორმებული კაბის უკანა ხედი</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/yellow-12-724.webp</image:loc><image:title>ნათელი სილუეტი</image:title><image:caption>ყვითელი მხრებგადაწეული კაბის სრული ხედი გაშლილი ბოლოთი</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/navy-coordinates-02-1200.webp</image:loc><image:title>ყოველდღიური ელეგანტურობა</image:title><image:caption>მუქი ლურჯი პიჯაკი და ქვედაკაბა დიდი თეთრი საყელოთი</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/traditional-33-700.webp</image:loc><image:title>ტრადიციული შთაგონება</image:title><image:caption>შინდისფერი და მონაცრისფრო ტრადიციული სამოსის წინა ხედი მანეკენზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/traditional-34-700.webp</image:loc><image:title>ტრადიციული შთაგონება</image:title><image:caption>ტრადიციული სამოსი განსხვავებულად გადაფენილი ზედა ნაწილით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/bridal-15-826.webp</image:loc><image:title>განსაკუთრებული დასაწყისი</image:title><image:caption>თეთრი საქორწილო კაბის წინა ხედი გრძელი შლეიფით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/bridal-14-940.webp</image:loc><image:title>განსაკუთრებული დასაწყისი</image:title><image:caption>თეთრი საქორწილო კაბის უკანა ხედი გაშლილი შლეიფით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/floral-child-23-1086.webp</image:loc><image:title>პატარა დეტალები</image:title><image:caption>ყვავილებიანი საბავშვო კაბა მოცულობითი სახელოებით საკიდზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/floral-child-25-1122.webp</image:loc><image:title>პატარა დეტალები</image:title><image:caption>ყვავილებიანი კაბის სახელოსა და წელის დეტალი</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/floral-child-24-1085.webp</image:loc><image:title>პატარა დეტალები</image:title><image:caption>ბავშვი თეთრი ყვავილებიანი კაბით, უკანა ხედი</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/sky-blue-10-678.webp</image:loc><image:title>ცისფერი განწყობა</image:title><image:caption>ღია ცისფერი გრძელი უსამხრე კაბა დეკორით მანეკენზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/burgundy-suit-06-960.webp</image:loc><image:title>შინდისფერში</image:title><image:caption>შინდისფერი პიჯაკისა და შარვლის კომპლექტი კიბეზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/ivory-08-1080.webp</image:loc><image:title>რბილი ხაზები</image:title><image:caption>გრძელი სპილოსძვლისფერი კაბა ნაკეცებიანი წელით მანეკენზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/ivory-possible-11-1440.webp</image:loc><image:title>რბილი ხაზები</image:title><image:caption>სპილოსძვლისფერი კაბის უკანა ხედი ღამის თბილისის ფონზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/navy-child-20-1024.webp</image:loc><image:title>პატარა კლასიკა</image:title><image:caption>მუქი ლურჯი საბავშვო კაბა დიდი კრემისფერი საყელოთი და ბაფთით საკიდზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/emerald-01-843.webp</image:loc><image:title>ზურმუხტისფერი სილუეტი</image:title><image:caption>ზურმუხტისფერი გრძელი კაბა შლეიფით ფართო კიბეზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/red-child-22-1440.webp</image:loc><image:title>პატარა დღესასწაული</image:title><image:caption>წითელი მბზინავი საბავშვო კაბა მხრებზე დიდი ბაფთებით საკიდზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/lime-03-922.webp</image:loc><image:title>ნაზი ელფერი</image:title><image:caption>ღია ლაიმისფერი გრძელი კაბის უკანა ხედი გადაჯვარედინებული წვრილი ბრეტელებით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/midnight-07-1080.webp</image:loc><image:title>შებინდებისას</image:title><image:caption>ქალი მუქი ლურჯი გრძელი კაბით ფანჯარასთან ზის</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/red-black-pair-09-1133.webp</image:loc><image:title>საღამოს ორი ფერი</image:title><image:caption>ორი ქალი წითელი და შავი საღამოს კაბებით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/grey-child-21-1440.webp</image:loc><image:title>ნაცრისფერი კომპლექტები</image:title><image:caption>ორი ბავშვი ნაცრისფერ და თეთრ სადღესასწაულო კომპლექტებში</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/grey-child-17-1440.webp</image:loc><image:title>ნაცრისფერი კომპლექტები</image:title><image:caption>ბიჭი ნაცრისფერი ჟილეტისა და შარვლის კომპლექტით, ციფრის ფორმის ბუშტთან</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/grey-child-16-1366.webp</image:loc><image:title>ნაცრისფერი კომპლექტები</image:title><image:caption>ბიჭი ნაცრისფერი ჟილეტისა და შარვლის კომპლექტით, ციფრის ფორმის ბუშტით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/red-bow-18-1080.webp</image:loc><image:title>წითელი ბაფთა</image:title><image:caption>წითელი გრძელმკლავიანი საბავშვო კაბა დიდი ბაფთით საკიდზე</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/gold-child-19-736.webp</image:loc><image:title>ოქროსფერი დღესასწაული</image:title><image:caption>ბავშვი ოქროსფერი ორნამენტიანი გაშლილი კაბით ნაძვის ხესთან</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-28-1080.webp</image:loc><image:title>ცისფერი ერთიანობა</image:title><image:caption>ბავშვების ჯგუფი ერთნაირ ღია ცისფერ კაბებსა და ჟილეტიან კომპლექტებში</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-26-960.webp</image:loc><image:title>ცისფერი ერთიანობა</image:title><image:caption>მოცეკვავე ბავშვები შეხამებულ ცისფერ კაბებსა და ჟილეტიან კომპლექტებში</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-30-960.webp</image:loc><image:title>ცისფერი ერთიანობა</image:title><image:caption>ბავშვების ჯგუფის უკანა ხედი ერთნაირი ცისფერი კაბებითა და ბაფთებით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-32-1080.webp</image:loc><image:title>ცისფერი ერთიანობა</image:title><image:caption>ბავშვების წარმოდგენის გვერდითი ხედი შეხამებული ცისფერი სამოსით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-pink-27-1080.webp</image:loc><image:title>ნაზი ვარდისფერი კომპლექტები</image:title><image:caption>ბავშვების ჯგუფი შეხამებულ ღია ვარდისფერ და თეთრ კოსტიუმებში</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-pink-29-960.webp</image:loc><image:title>ნაზი ვარდისფერი კომპლექტები</image:title><image:caption>ბავშვების ჯგუფის საერთო ხედი ერთნაირი ღია ვარდისფერი ზედებითა და თეთრი შარვლებით</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-turquoise-31-1440.webp</image:loc><image:title>ფირუზისფერი კომპლექტები</image:title><image:caption>მოცეკვავე ბავშვები ერთნაირ ფირუზისფერ კაბებსა და ჟილეტიან კომპლექტებში</image:caption></image:image>
+  </url>
+  <url>
+    <loc>https://ateliermaoni.github.io/ka/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ateliermaoni.github.io/ka/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ateliermaoni.github.io/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ateliermaoni.github.io/ka/contact/"/>
+  </url>
+  <url>
+    <loc>https://ateliermaoni.github.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ateliermaoni.github.io/ka/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ateliermaoni.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ateliermaoni.github.io/ka/"/>
+  </url>
+  <url>
+    <loc>https://ateliermaoni.github.io/en/work/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ateliermaoni.github.io/ka/work/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ateliermaoni.github.io/en/work/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ateliermaoni.github.io/ka/work/"/>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/silver-04-1345.webp</image:loc><image:title>Silver reflections</image:title><image:caption>Front view of a pale fitted dress with silver embellishments</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/silver-05-1333.webp</image:loc><image:title>Silver reflections</image:title><image:caption>Rear three-quarter view of the silver-embellished dress</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/yellow-12-724.webp</image:loc><image:title>A brighter silhouette</image:title><image:caption>Full view of a yellow off-shoulder dress with a flared hem</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/navy-coordinates-02-1200.webp</image:loc><image:title>Everyday, considered</image:title><image:caption>Woman wearing a navy jacket and skirt with a large white collar</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/traditional-33-700.webp</image:loc><image:title>A traditional expression</image:title><image:caption>Front view of burgundy and taupe traditional clothing on a mannequin</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/traditional-34-700.webp</image:loc><image:title>A traditional expression</image:title><image:caption>Alternate view of the traditional garment with its draped upper layer</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/bridal-15-826.webp</image:loc><image:title>For a special beginning</image:title><image:caption>Front view of a white bridal gown and its long train</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/bridal-14-940.webp</image:loc><image:title>For a special beginning</image:title><image:caption>Rear view of the white bridal gown with the train spread out</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/floral-child-23-1086.webp</image:loc><image:title>Little details</image:title><image:caption>Floral children’s dress with puff sleeves hanging on a rail</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/floral-child-25-1122.webp</image:loc><image:title>Little details</image:title><image:caption>Close view of the floral dress sleeve and gathered waist</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/floral-child-24-1085.webp</image:loc><image:title>Little details</image:title><image:caption>Rear view of a child wearing the white floral puff-sleeve dress</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/sky-blue-10-678.webp</image:loc><image:title>Something blue</image:title><image:caption>Full-length embellished pale blue strapless dress on a mannequin</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/burgundy-suit-06-960.webp</image:loc><image:title>In burgundy</image:title><image:caption>Woman wearing a burgundy jacket and trousers on an interior staircase</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/ivory-08-1080.webp</image:loc><image:title>Soft lines</image:title><image:caption>Ivory halter-neck long dress with a gathered waist on a mannequin</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/ivory-possible-11-1440.webp</image:loc><image:title>Soft lines</image:title><image:caption>Rear view of the ivory halter-neck dress overlooking Tbilisi at night</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/navy-child-20-1024.webp</image:loc><image:title>A small classic</image:title><image:caption>Navy children’s dress with a broad cream collar and bow on a hanger</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/emerald-01-843.webp</image:loc><image:title>An emerald entrance</image:title><image:caption>Woman wearing an emerald long dress with a train on a grand staircase</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/red-child-22-1440.webp</image:loc><image:title>A little celebration</image:title><image:caption>Red sparkly children’s dress with large shoulder bows hanging from a rail</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/lime-03-922.webp</image:loc><image:title>A softer shade</image:title><image:caption>Back view of a pale lime long dress with narrow crossing straps outdoors</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/midnight-07-1080.webp</image:loc><image:title>After dusk</image:title><image:caption>Woman seated by a window wearing a deep blue long dress</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/red-black-pair-09-1133.webp</image:loc><image:title>Evening in two tones</image:title><image:caption>Two women seated together wearing red and black evening dresses</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/grey-child-21-1440.webp</image:loc><image:title>Coordinated in grey</image:title><image:caption>Two children wearing coordinated grey and white occasion outfits</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/grey-child-17-1440.webp</image:loc><image:title>Coordinated in grey</image:title><image:caption>Boy seated in a grey waistcoat and trouser set beside a number balloon</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/grey-child-16-1366.webp</image:loc><image:title>Coordinated in grey</image:title><image:caption>Boy wearing a grey waistcoat and trouser set while holding a number balloon</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/red-bow-18-1080.webp</image:loc><image:title>A red bow</image:title><image:caption>Red long-sleeve children’s dress with a large shoulder bow on a hanger</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/gold-child-19-736.webp</image:loc><image:title>Golden celebration</image:title><image:caption>Child wearing a full-skirted golden patterned dress beside a Christmas tree</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-28-1080.webp</image:loc><image:title>Coordinated in blue</image:title><image:caption>Group of children performing in matching light blue dresses and coordinated waistcoat sets</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-26-960.webp</image:loc><image:title>Coordinated in blue</image:title><image:caption>Children dancing in coordinated light blue dresses and blue waistcoat sets</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-30-960.webp</image:loc><image:title>Coordinated in blue</image:title><image:caption>Rear view of a group wearing matching light blue dresses with bows</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-blue-32-1080.webp</image:loc><image:title>Coordinated in blue</image:title><image:caption>Side view of children performing in coordinated light blue outfits</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-pink-27-1080.webp</image:loc><image:title>Soft pink ensemble</image:title><image:caption>Children performing together in coordinated pale pink and white costumes</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-pink-29-960.webp</image:loc><image:title>Soft pink ensemble</image:title><image:caption>Wide view of a children’s group in matching pale pink tops and white trousers</image:caption></image:image>
+    <image:image><image:loc>https://ateliermaoni.github.io/assets/images/group-turquoise-31-1440.webp</image:loc><image:title>A turquoise ensemble</image:title><image:caption>Children dancing in matching turquoise dresses and coordinated waistcoat sets</image:caption></image:image>
+  </url>
+  <url>
+    <loc>https://ateliermaoni.github.io/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ateliermaoni.github.io/ka/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ateliermaoni.github.io/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ateliermaoni.github.io/ka/contact/"/>
+  </url>
 </urlset>
