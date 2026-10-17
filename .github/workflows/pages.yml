@@ -55,6 +55,9 @@ jobs:
               --max-time 30 "${site_url}${path}" --output "$output"
           done
           grep --quiet "Atelier MAONI" /tmp/atelier-maoni-
+          grep --quiet 'google-site-verification.*7LdSylp-PoeOl1Tydj36mwL5AsnJVtEEeNuD18H91es' /tmp/atelier-maoni-
+          grep --quiet 'google-site-verification.*7LdSylp-PoeOl1Tydj36mwL5AsnJVtEEeNuD18H91es' /tmp/atelier-maoni-ka-
+          grep --quiet 'google-site-verification.*7LdSylp-PoeOl1Tydj36mwL5AsnJVtEEeNuD18H91es' /tmp/atelier-maoni-en-
           test "$(grep --only-matching 'data-image-index=' /tmp/atelier-maoni-ka-work- | wc --lines)" -eq 33
           test "$(grep --only-matching 'data-image-index=' /tmp/atelier-maoni-en-work- | wc --lines)" -eq 33
           grep --quiet 'https://maps.app.goo.gl/drJ2gnc8GKpYNQ599' /tmp/atelier-maoni-ka-contact-
