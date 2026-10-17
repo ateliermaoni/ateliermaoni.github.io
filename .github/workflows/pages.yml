@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -44,3 +44,17 @@ jobs:
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify live website
+        run: |
+          curl --fail --location --retry 12 --retry-delay 10 --retry-all-errors \
+            --max-time 30 "${{ steps.deployment.outputs.page_url }}" \
+            --output /tmp/atelier-maoni-live.html
+          grep --quiet "Atelier MAONI" /tmp/atelier-maoni-live.html
+
+      - name: Mark verified deployment
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag "pages-live-${GITHUB_SHA}"
+          git push origin "pages-live-${GITHUB_SHA}"
